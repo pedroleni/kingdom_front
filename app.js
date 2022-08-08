@@ -106,7 +106,7 @@ const mapDesarrolladora = (desarrolladora) => {
             <div class="imagen_juego"><img src="${item.imagen}"/></div>
          </div>
         <div class="texto_juego">
-            <p><spam>Fecha: </spam>${item.fecha}</p>
+            <p>${item.fecha}</p>
         </div>
       </figure>
   

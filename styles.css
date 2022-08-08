@@ -199,7 +199,7 @@ h1{
 
 .figure_juego{
     width: 400px;
-    height: 850px;
+    height: 870px;
    
     padding: 60px;
     gap: 5px;
@@ -211,7 +211,7 @@ h1{
     text-align: center;
     background-image: url(./src/fondo.jpg);
     background-repeat:no-repeat;
-    background-size: 520px 970px;
+    background-size: 520px 990px;
     border-radius: 40px;
 
 }

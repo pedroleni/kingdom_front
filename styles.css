@@ -1,0 +1,440 @@
+
+
+
+.consola, .desarrolladora, .juego {
+    display:none;
+    margin-top: 40px;
+} 
+img{
+    width: 100%;
+}
+html{
+    margin:0 auto;
+    
+}
+spam{
+    font-weight: bold;
+}
+body{
+    height: 100vh;
+    background-image: url(https://acegif.com/wp-content/uploads/2021/4fh5wi/animated-wallpaper-240x320px-acegif-49.gif);
+    background-attachment: fixed;
+    
+    background-size: 100%;
+    /* background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(245,246,250,1) 50%, rgb(205, 92, 122) 100%); */
+}
+.botones{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    
+   
+    
+   
+    border: solid 1px rgba(4, 6, 59, 0.502);
+
+   
+   
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+header div {
+    width: 101%;
+}
+
+.botones button{
+    padding: 20px;
+    width: 33%;
+    
+    
+    font-size: 20px;
+    /* background-image:url(./fondo.jpg);
+    
+    background-size: 528px 62px;
+    background-repeat: no-repeat; */
+    background: rgb(17,41,161);
+    background: radial-gradient(circle, rgba(17,41,161,1) 0%, rgba(69,54,172,1) 48%, rgba(0,0,0,1) 100%);
+    color:white;
+
+    
+
+
+
+}
+
+.carrusel{
+    display: flex;
+    overflow-x:auto;
+    margin: 1rem 0;
+ 
+    max-width: calc(100vw - 2rem);
+    gap: 40px;
+    
+}
+
+#container{
+    display: flex;
+    direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.figure_personaje{
+    width: auto ;
+    height: 520px;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    border: solid black 2px;
+    border-radius: 10px;
+    background-image: url(./src/fondo.jpg);
+    background-repeat:no-repeat;
+    background-size: 290px 560px;
+    border-radius: 30px;  
+    
+}
+
+
+.texto_personaje{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:white;
+    
+   
+}
+
+.texto_personaje p{
+    margin:5px
+}
+
+
+
+.titulo_personaje{
+    font-size: 20px;
+    margin:20px;
+    margin-top:0px;
+    margin-bottom: 30px;
+}
+
+.imagen_personaje{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    width: 220px;
+}
+.imagen_personaje img{
+    height: 320px;
+   }
+    
+
+
+h1{
+    width: 80%;
+    padding: 7px;
+    margin-top:10px;
+    margin-bottom:10px;
+    border: solid rgba(19, 19, 124, 0.21);
+    border-radius: 20px;
+    background: rgba(2, 0, 36, 0.389);
+    background: linear-gradient(90deg,rgba(205, 92, 122, 0.311)   0%, rgba(245, 246, 250, 0.523) 50%, rgba(2, 0, 36, 0.351) 95%);
+    box-shadow: 3px 3px 0px 0px ;
+    box-shadow: rgba(6, 6, 54, 0.525)
+}
+
+.description{
+    text-align: justify;
+    font-size: 20px;
+}
+
+.logo_desa{
+    background-color: white;
+}
+.figure_desarrolladora{
+    padding: 60px;
+    height: 690px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+
+
+    background-image: url(./src/fondo.jpg);
+    background-repeat:no-repeat;
+    background-size: 490px 813px;
+    border-radius: 40px;
+    
+    color:white
+
+}
+.texto{
+    width: 300px;
+    margin: 20px;
+}
+
+.container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.figure_juego{
+    width: 400px;
+    height: 850px;
+   
+    padding: 60px;
+    gap: 5px;
+    color:white;
+    display:  flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(./src/fondo.jpg);
+    background-repeat:no-repeat;
+    background-size: 520px 970px;
+    border-radius: 40px;
+
+}
+
+.texto_juego{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.personajes{
+    margin-top: 40px;
+}
+
+.figure_consola{
+    display: flex; 
+    flex-direction: column;
+    border-radius: 10px;
+    
+    text-align: center;
+    width: 200px;
+    height: 630px;
+    padding: 40px;
+    background-color: rgba(240, 255, 255, 0.639);
+    background-image: url(./src/marco.png);
+    background-repeat:no-repeat;
+    background-size: 298px 755px;
+    background-position-x: -8px;
+    background-position-y: -19px;
+    
+   
+
+}
+
+.logo_consola{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.926);
+    padding: 20px;
+    margin-top:30px ;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+.imagen_consola{
+    display:flex;
+    align-items: center;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.531);
+    
+}
+
+.texto-info_consola{
+    background-color:rgba(255, 255, 255, 0.236) ;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+@media only screen and ( max-width: 900px){
+
+    .botones button{
+        
+        font-size: 15px;
+    
+    }
+
+}
+
+
+
+@media only screen and ( max-width: 823px){
+
+
+    .titulo_personaje{
+        font-size: 18px;
+        text-align: center;
+        margin:12px
+    }
+
+}
+
+@media only screen and ( max-width: 620px){
+    .figure_juego{
+        width: 300px;
+        height: 700px;
+       
+        padding: 40px;
+        gap: 5px;
+        color:white;
+        display:  flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-image: url(./src/fondo.jpg);
+        background-repeat:no-repeat;
+        background-size: 380px 785px;
+        border-radius: 40px;
+    
+    }
+
+    .figure_desarrolladora{
+        width: 200px;
+        padding: 60px;
+        height: 400px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    
+    
+        background-image: url(./src/fondo.jpg);
+        background-repeat:no-repeat;
+        background-size: 320px 520px;
+        border-radius: 40px;
+        
+        color:white
+    
+    }
+
+
+ 
+
+}
+
+
+
+@media only screen and ( max-width: 414px){
+    .botones button{
+        
+        font-size: 10px;
+        padding:0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-size: 150px 30px;
+    background-repeat: no-repeat;
+    
+    }
+
+    .figure_juego{
+        width: 200px;
+        height: 500px;
+       
+        padding: 40px;
+        gap: 5px;
+        color:white;
+        display:  flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-image: url(./src/fondo.jpg);
+        background-repeat:no-repeat;
+        background-size: 280px 580px;
+        border-radius: 40px;
+    
+    }
+
+    .figure_desarrolladora{
+        width: 175px;
+        padding: 60px;
+        height: 400px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    
+    
+        background-image: url(./src/fondo.jpg);
+        background-repeat:no-repeat;
+        background-size: 295px 520px;
+        border-radius: 40px;
+        
+        color:white
+    
+    }
+
+    .botones button{
+        
+        font-size: 10px;
+        padding:0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    
+    }
+
+}
+
+/* ------IPHONE SE------- */
+
+@media only screen and ( max-width: 375px){
+
+
+    .figure_desarrolladora{
+        width: 200px;
+        padding: 60px;
+        height: 400px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+
+    
+        background-image: url(./src/fondo.jpg);
+        background-repeat:no-repeat;
+        background-size: 280px 520px;
+        border-radius: 40px;
+        
+        color:white
+    
+    }
+
+}
+
+
+
+
+
+
+

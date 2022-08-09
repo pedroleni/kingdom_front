@@ -346,7 +346,7 @@ h1{
 @media only screen and ( max-width: 414px){
     .botones button{
         
-        font-size: 10px;
+        font-size:  5px;
         padding:0px;
         padding-top: 10px;
         padding-bottom: 10px;

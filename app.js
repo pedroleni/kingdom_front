@@ -15,6 +15,8 @@ const carrusel = document.querySelector(".carrusel");
 const consola = document.querySelector(".consola");
 const desarrolladora = document.querySelector(".desarrolladora");
 const juego = document.querySelector(".juego");
+const spinner = document.querySelector(".spinner");
+const spinner2 = document.querySelector(".spinner2")
 
 
 
@@ -26,6 +28,7 @@ let personajeList;
 let consolaList;
 // -------------DESARRROLADORA ---------------
 const getDesarrolladora  = async () => {
+    spinner.style.display = "block"
     const raw = await fetch(URL2);
     const json = await raw.json();
     const desarrolladora =  json.data.desarrolladora;
@@ -77,6 +80,7 @@ const mapDesarrolladora = (desarrolladora) => {
 
 // ------------- JUEGO  ---------------
   const getJuego = async () => {
+    spinner.style.display = "block"
     const raw = await fetch(URL3);
     const json = await raw.json();
     const juego =  json.data.juego;
@@ -122,6 +126,7 @@ const mapDesarrolladora = (desarrolladora) => {
 
 // ------------- PERSONAJE  ---------------
   const getPersonaje = async () => {
+    spinner2.style.display = "block"
     const raw = await fetch(URL4);
     const json = await raw.json();
     const personaje =  json.data.personaje;
@@ -166,6 +171,7 @@ const mapDesarrolladora = (desarrolladora) => {
 
 // ------------- CONSOLA  ---------------
   const getConsola = async () => {
+    spinner.style.display = "block"
     const raw = await fetch(URL);
     const json = await raw.json();
     const consola =  json.data.consola;
@@ -216,9 +222,11 @@ const mapDesarrolladora = (desarrolladora) => {
 
   const paint = (figure) => {
     container.innerHTML += figure;
+    spinner.style.display = "none"
   };
   const  paintCarrusel = (figure) => {
     carrusel.innerHTML += figure;
+    spinner2.style.display = "none"
   };
 
 
